@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+}
+ul.menu-item {
+    width: 100%;
+    height: 40rem;
+    background: url(../img/NovaMarca.jpeg);
+    background-size: cover;
+    
+   
+}
+
+.Destaque {
+    font-size: 90px;
+    color: rgb(80, 140, 20);
+    background: yellow
+
+
+}
+ul li {
+    
+    float: left;
+    
+}
+body {
+font-family:sans-serif; color: rgb(140, 172, 51);
+background: rgb(252, 246, 242);
+flex-direction: center;
+justify-content: center;
+align-items: center;
+overflow-x: hidden;
+
+}
+
+#slider {
+    width: 1000px;
+    height: 50vw;
+    position: relative;
+    margin: 30px 40px ;
+}
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition: opacity 800ms;
+
+}
+#slider img.selected {
+    opacity: 1;
+}
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2em; /* espaçamento da linha: cima e baixo*/
+    text-decoration: none;
+    color: rgb(140, 172, 51);
+}
+
+.destaque {
+    display: inline-flex;
+    padding: 10px;
+    
+}
+#top:hover {
+   color: rgb(166, 234, 166);
+    background: rgb(111, 111, 109);
+}
+
+div .redes {
+    justify-content: center;
+    display:flex;
+    text-align: center;
+   
+}
+#redes {
+    justify-content: center;
+    display: flex;
+    height: 35px;
+    width: 35px; 
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+.two-columns {
+    column-count: 3;
+    column-gap: 3rem;
+    column-rule: 5px dashed goldenrod;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 30px;
+}
+footer {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    bottom: 0;
+    padding: 20px 0;
+    background-color: black;
+}
